@@ -1,0 +1,40 @@
+.test {
+    background-color: #131520;
+    .wrapper {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color: #fff;
+      margin: 12px;
+      margin-top: 0;
+      border-radius: 30px;
+      .startupPageContainer {
+        display: grid;
+        grid-template-columns: 12fr 12fr 12fr;
+        grid-template-rows: 12fr 12fr 12fr;
+        row-gap: 30px;
+        column-gap: 50px;
+        padding: 50px 100px;
+      }
+      .notFound {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+  
+        margin-top: 32px;
+        font-size: 24px;
+      }
+    }
+  
+    @media only screen and (max-width: 768px) {
+      .wrapper {
+        .startupPageContainer {
+          width: 100vw;
+          display: flex;
+          flex-direction: column;
+          padding: 32px;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,76 @@
+.headerContainer {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 44px;
+  width: 100vw;
+  height: 86px;
+  background-color: #131520;
+  .logoContainer {
+    display: flex;
+    .divider {
+      height: 10px;
+      background-color: gray;
+      width: 1px;
+      margin-top: 9px;
+      margin-right: 12px;
+    }
+    .homeLink {
+      cursor: default;
+    }
+    .logo {
+      margin-right: 16px;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    .title {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      color: #ffff;
+      margin-top: 4px;
+    }
+  }
+  .navigationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .actionsContainer {
+    display: flex;
+    align-items: center;
+.userName{
+color: white;
+margin-left: 5px;
+}
+    .actionIcon {
+      margin-right: 12px;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.1);
+      }
+  
+    }
+  
+    .userImage {
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      margin-left: 8px;
+      background-color: #c2d6ff;
+      border-radius: 50%;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  
+  }
+}

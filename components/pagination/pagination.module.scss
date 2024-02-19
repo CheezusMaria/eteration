@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .pageNumbers {
+      display: flex;
+      gap: 8px;
+    }
+    span {
+      padding: 8px 12px;
+      text-decoration: none;
+      color: #333;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      &:hover:not(.active) {
+        background-color: #ddd;
+      }
+    }
+    .active {
+      background-color: #0070f3;
+      color: #fff;
+      border: 1px solid #0070f3;
+    }
+  }
+  
